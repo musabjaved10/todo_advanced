@@ -31,7 +31,7 @@ class MainApp extends StatelessWidget {
         brightness: Brightness.dark,
         seedColor: AppColors.primaryColor,
       )),
-      home: Scaffold(body: AllTodosScreen()),
+      home: const Scaffold(body: AllTodosScreen()),
     );
   }
 }

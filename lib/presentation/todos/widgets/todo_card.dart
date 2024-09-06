@@ -55,7 +55,7 @@ class _TodoCardState extends State<TodoCard> {
               children: [
                 const Gap(12),
                 Text(
-                  todo.title + " hello this is very big title",
+                  "${todo.title} hello this is very big title",
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: Theme.of(context).textTheme.titleLarge!.copyWith(
@@ -67,7 +67,7 @@ class _TodoCardState extends State<TodoCard> {
           ),
           const Gap(8),
           Container(
-            padding: EdgeInsets.all(7),
+            padding: const EdgeInsets.all(7),
             margin: const EdgeInsets.only(top: 10),
             decoration:
                 const BoxDecoration(shape: BoxShape.circle, color: Colors.blue),
